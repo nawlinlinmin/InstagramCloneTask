@@ -1,0 +1,119 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require bootstrap/dist/css/bootstrap.min
+ *= require_tree .
+ *= require_self
+ */
+ header{
+  width:auto;
+  color: black;
+  text-align : center;
+}
+
+h1 {
+  font-family: 'fantasy';
+  font-style: normal;
+  text-align: center;
+
+}
+
+ .jumbotron h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.Insta {
+  // font-family: 'grandam';
+  display     : inline-block;
+  font-size   : 160%;
+  font-weight : bold;
+  color       : #ffffff;
+  text-shadow:  2px  2px 10px #777 ,
+               -2px  2px 10px #777 ,
+                2px -2px 10px #777 ,
+               -2px -2px 10px #777;
+}
+
+.share {
+  font-family: 'Monoton', cursive;
+  color: #CC6699;
+}
+
+body {
+  background-color: #DDDDDD	;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+th {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+tbody {
+  text-align: center;
+}
+
+td {
+  padding: 0 5px 7px;
+}
+  .btn{
+    background-color: #fff;
+  }
+  .container {
+    text-align: center;
+  }
+
+  .form-group {
+    font-size: 20px;
+  }
+
+ .user-form{
+   margin: auto;
+ }
+ h2{
+   color: green;
+   font-style: italic;
+ }
+
+ .main-container{
+   padding: 40px auto;
+   width: 100%;
+   position: relative;
+   background-color: #e2e2e2;
+   height: 100%;
+ }
+
+ .login-form-content{
+   padding: 10px 0 ;
+ }
+ .login-container{
+   border-radius: 10px;
+   width: 40%;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: white;
+   text-align: center;
+ }
+
+ .wrapper{
+   background: url("whiteprofile.png");
+ text-align: center;
+ }
+ label {
+     display: block;
+     max-width: 100%;
+     margin-bottom: 5px;
+     font-weight: 700;
+ }
